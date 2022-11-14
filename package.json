@@ -1,0 +1,31 @@
+{
+  "name": "learntocode",
+  "version": "1.0.0",
+  "description": "Playground for learning basics",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "sass --watch scss/styles.scss css/style.css | http-server -o -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obrell86/LearnToCode.git"
+  },
+  "keywords": [
+    "learn",
+    "js",
+    "npm"
+  ],
+  "author": "Johan Öbrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Obrell86/LearnToCode/issues"
+  },
+  "homepage": "https://github.com/Obrell86/LearnToCode#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "http-server": "^14.1.1",
+    "restful.js": "^0.9.6",
+    "sass": "^1.56.1"
+  }
+}
